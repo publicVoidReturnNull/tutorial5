@@ -5,8 +5,8 @@ TAArray::TAArray(){
     TextAreaArray = new TextArea*[MAX_COMPONENTS];
     }
 TAArray::~TAArray(){
-    for (int i = 0; i < MAX_COMPONENTS; i++) 
-        delete TextAreaArray[i];
+    // for (int i = 0; i < MAX_COMPONENTS; i++) 
+    //     delete TextAreaArray[i];
 
     delete[] TextAreaArray;
 }
